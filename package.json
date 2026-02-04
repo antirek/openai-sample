@@ -1,0 +1,17 @@
+{
+  "name": "openai-sample",
+  "version": "1.0.0",
+  "description": "Node.js project for working with OpenAI API",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "ask": "node src/index.js"
+  },
+  "keywords": ["openai", "gpt"],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.73.0"
+  }
+}
